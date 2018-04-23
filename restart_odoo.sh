@@ -1,10 +1,10 @@
 #!/bin/bash
 
-LOG=/root/jr/restart.log
+LOG=/root/jr_tools/restart.log
 
 SERVICE=odoo.py
 
-FULL=/usr/bin/odoo.py --config=/etc/odoo/openerp-server.conf
+#FULL=/usr/bin/odoo.py --config=/etc/odoo/openerp-server.conf
 
 if ps ax | grep -v grep | grep $SERVICE > /dev/null
 then
