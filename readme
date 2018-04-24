@@ -1,6 +1,6 @@
 
 crontab -e
-*/1 * * * * /root/jr/restart_odoo.sh
+*/1 * * * * /root/jr_tools/restart_odoo.sh
 
 
 24 April 2018
