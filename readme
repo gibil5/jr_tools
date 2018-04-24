@@ -3,5 +3,5 @@ crontab -e
 */1 * * * * /root/jr/restart_odoo.sh
 
 
-23 April 2018
+24 April 2018
 
