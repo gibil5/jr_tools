@@ -16,3 +16,9 @@ else
 
         systemctl restart odoo
 fi
+
+# IP Address
+PS1=$(ifconfig $(route -n | grep ^0.0.0.0 | awk '{print $NF}') | grep inet | grep -v inet6 | awk '{print $2}')
+
+echo "$PS1" >> $LOG 
+
