@@ -4,4 +4,7 @@ crontab -e
 
 
 4 April 2019
+Todo:
+- Rsync the logs with a remote (Docean for Proliant).
+  
 
